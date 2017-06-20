@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="一样是月明，一样是隔山灯火">
 <meta property="og:description" content="以管理员身份打开cmd在完成安装Mysql5.6后，使用mysql时，打开cmd，输入net start mysql，提示服务名无效，查看服务列表,也结果找不到mysql相关的服务，可以用下面方法去解决。解决方案：1、打开cmd，切换到mysql的bin目录下 （这个需要根据自己电脑mysql安装位置查找，下面是我的电脑上mysql安装目录）
 2、 C:\Program Files(x86)\My">
-<meta property="og:updated_time" content="2017-06-20T14:15:48.954Z">
+<meta property="og:updated_time" content="2017-06-20T14:29:29.514Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MySql安装注意事项">
 <meta name="twitter:description" content="以管理员身份打开cmd在完成安装Mysql5.6后，使用mysql时，打开cmd，输入net start mysql，提示服务名无效，查看服务列表,也结果找不到mysql相关的服务，可以用下面方法去解决。解决方案：1、打开cmd，切换到mysql的bin目录下 （这个需要根据自己电脑mysql安装位置查找，下面是我的电脑上mysql安装目录）
@@ -181,7 +181,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>以管理员身份打开cmd<br>在完成安装Mysql5.6后，使用mysql时，打开cmd，输入net start mysql，提示服务名无效，查看服务列表,也结果找不到mysql相关的服务，可以用下面方法去解决。解决方案：1、打开cmd，切换到mysql的bin目录下 （这个需要根据自己电脑mysql安装位置查找，下面是我的电脑上mysql安装目录）</p>
-<p>2、 C:\Program Files(x86)\MySQL5.6\bin&gt;mysqld.exe -install<br>Service successfully installed.</p>
+<p>2、 C:\Program Files(x86)\MySQL5.6\bin&gt;mysqld.exe -install         （注：此处要以管理员身份运行）<br>Service successfully installed.</p>
 <p>3.在服务中启动mysql服务</p>
 <p>4.创建root用户，不能设置密码（以后会更新为什么），测试链接，成功后连接，创建数据库使用</p>
 
